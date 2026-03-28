@@ -1,3 +1,10 @@
+> Convert numbers and currency amounts into Bangla words.
+
+[![Package Version](https://img.shields.io/pub/v/bangla_number_to_words?color=teal&style=plastic)](https://pub.dev/packages/bangla_number_to_words "Published package version")
+[![LICENSE](https://img.shields.io/badge/License-MIT-red.svg?style=plastic)](https://github.com/Pritom-Chaki/bangla_number_to_words/blob/main/LICENSE "Project's LICENSE")
+[![Last Commit](https://img.shields.io/github/last-commit/Pritom-Chaki/bangla_number_to_words.svg?logo=github&style=plastic)](https://github.com/Pritom-Chaki/bangla_number_to_words)
+
+
 # bangla_number_to_words
 
 A pure Dart package to convert numbers and currency amounts into Bangla words using the Bangladeshi numbering system (শত, হাজার, লক্ষ, কোটি).
@@ -13,14 +20,12 @@ A pure Dart package to convert numbers and currency amounts into Bangla words us
 - **Digit Conversion** — Convert between English and Bangla digits
 
 ## Installation
-
-Add to your `pubspec.yaml`:
+ Add the following line to the dependencies section in your project's 
+ **`pubspec.yaml`** file:
 
 ```yaml
-dependencies:
-  bangla_number_to_words: ^1.0.0
+flutter pub add bangla_number_to_words
 ```
-
 ## Usage
 
 ```dart
@@ -95,6 +100,31 @@ BanglaNumberToWords.toEnglishDigits('১২৩৪৫');
 | GBP      | পাউন্ড      |
 | INR      | রুপি        |
 
-## License
+## Example Render UI
+<img src="https://raw.githubusercontent.com/Pritom-Chaki/bangla_number_to_words/main/example/images/example_ss.png?raw=true">
 
-MIT License — see [LICENSE](LICENSE) for details.
+[![Contact Me](https://www.pritom.me/assets/contact_me.gif?raw=true)](https://www.pritom.me/contact?source=pubget)
+
+## Demo
+
+For a complete example app, see the [example directory](https://github.com/Pritom-Chaki/bangla_number_to_words/tree/main/example).
+
+
+## Help
+
+Found a bug? [Report it here.](https://github.com/Pritom-Chaki/bangla_number_to_words/issues/new?assignees=&labels=&template=bug_report.md&title=)
+Have a feature request? [Request it here.](https://github.com/Pritom-Chaki/bangla_number_to_words/issues/new?assignees=&labels=&template=feature_request.md&title=)
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
+
+## Contributions
+
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
+
+## **License**
+
+Released under the [MIT License](LICENSE).
+

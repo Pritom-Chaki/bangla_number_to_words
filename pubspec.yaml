@@ -1,6 +1,6 @@
 name: bangla_number_to_words
 description: A pure Dart package to convert numbers and currency amounts into Bangla words using the Bangladeshi numbering system (শত, হাজার, লক্ষ, কোটি).
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/Pritom-Chaki/bangla_number_to_words
 repository: https://github.com/Pritom-Chaki/bangla_number_to_words
 

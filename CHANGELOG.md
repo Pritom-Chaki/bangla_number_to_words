@@ -1,3 +1,8 @@
+## 1.0.1
+
+* Final test pass and approved.
+* Update README.md file.
+
 ## 1.0.0
 
 - Initial release
